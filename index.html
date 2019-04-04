@@ -1,27 +1,46 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<script src="interface.js"></script>
-<script src="moteur_js.js"></script>
-<script src="regles.json"></script>
-<script src="faits.json"></script>
-<script src="regles.js"></script>
-<script src="faits.js"></script>
-<script src="jquery.min.js"></script>
+	<meta charset="UTF-8">
+	<title>Polygone sans règles</title>
+	<link rel="stylesheet" href="assets/css/index.css">
+
+	<script src="interface.js"></script>
+    <script src="moteur_js.js"></script>
+    <script src="regles.json"></script>
+    <script src="faits.json"></script>
+    <script src="regles.js"></script>
+    <script src="faits.js"></script>
+    <script src="jquery.min.js"></script>
 </head>
 <body>
-<label for="nb_cote">Number of side</label>
-<input type="number" min="3" max="20" id="nb_cote" name="nb_cote">
+	<div class="content-container">
+		<div class="input-row">
+			<label for="nb_cote">Number of side:</label>
+			<input type="number" min="3" max="20" id="nb_cote" name="nb_cote">
+		</div>
 
-<label for="nb_angle_droit">Number of right angle</label>
-<input type="number" min="0" max="10" id="nb_angle_droit" name="nb_angle_droit">
+		<div class="input-row">
+			<label for="nb_angle_droit">Number of right angle:</label>
+			<input type="number" min="0" max="10" id="nb_angle_droit" name="nb_angle_droit">
+		</div>
 
-<label for="nb_cote_same">Number of side with equal size</label>
-<input type="number" min="0" max="10" id="nb_cote_same" name="nb_cote_same">
+		<div class="input-row">
+			<label for="nb_cote_same">Number of side with equal size:</label>
+			<input type="number" min="0" max="10" id="nb_cote_same" name="nb_cote_same">
+		</div>
 
-<label for="nb_cote_parallel">Number of parallel side</label>
-<input type="number" min="0" max="10" id="nb_cote_parallel" name="nb_cote_parallel">
+		<div class="input-row">
+			<label for="nb_cote_parallel">Number of parallel side:</label>
+			<input type="number" min="0" max="10" id="nb_cote_parallel" name="nb_cote_parallel">
+		</div>
+		<div class="buttons">	
+			<button type="button" onClick="search()">SEARCH</button>
+			<button type="button" onClick="reset()">RESET FACTS</button> 
+        </div>
+    </div>
+    <div class="content-container" id="answer-container">
 
-<button type="button" onClick="search()">SEARCH</button>
-<button type="button" onClick="reset()">RESET</button> 
+    </div>
 </body>
 </html>
