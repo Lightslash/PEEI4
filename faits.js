@@ -12,3 +12,6 @@ function read_facts(nb_cote,nb_angle_droit,nb_cote_same,nb_cote_parallel){
 function add_facts(nb_cote,nb_angle_droit,nb_cote_same,nb_cote_parallel,strToRet){
     rules.push([nb_cote,nb_angle_droit,nb_cote_same,nb_cote_parallel,strToRet]);
 }
+function reset_facts(){
+    rules = [];
+}

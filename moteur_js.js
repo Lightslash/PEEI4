@@ -14,3 +14,6 @@ function moteur(nb_cote,nb_angle_droit,nb_cote_same,nb_cote_parallel){
     }
     return strToRet;
 }
+function reset(){
+    reset_facts();
+}

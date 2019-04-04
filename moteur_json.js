@@ -19,7 +19,9 @@ function read_facts(nb_cote,nb_angle_droit,nb_cote_same,nb_cote_parallel){
 function read_rules(nb_cote,nb_angle_droit,nb_cote_same,nb_cote_parallel){
 
 }
-
+function reset(){
+    
+}
 function get(file){
     $.ajax({url: url+file, success: function(result){
         console.log(result);

@@ -4,7 +4,7 @@ function search(){
     nb_cote_same = check_nb(document.getElementById('nb_cote_same').value);
     nb_cote_parallel = check_nb(document.getElementById('nb_cote_parallel').value);
     answer = moteur(nb_cote,nb_angle_droit,nb_cote_same,nb_cote_parallel);
-    console.log(answer);
+    display_answer(answer);
 }
 function check_nb(nb){
     if(nb==''){
@@ -12,4 +12,7 @@ function check_nb(nb){
     }else{
         return parseInt(nb);
     }
+}
+function display_answer(answer){
+    document.getElementById('answer-container').innerHTML = answer;
 }
