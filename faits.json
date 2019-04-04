@@ -1,10 +1,9 @@
 [
     {
-        "" : "",
-        "" : ""
-    },
-    {
-        "" : "",
-        "" : ""
+        "nb_cote" : "3",
+        "nb_angle_droit" : "1",
+        "nb_cote_same" : "2",
+        "nb_parallel" : "0",
+        "ret" : "Ceci est un triangle rectangle isocèle"
     }
 ]

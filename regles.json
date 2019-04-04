@@ -1,10 +1,33 @@
 [
     {
-        "" : "",
-        "" : ""
-    },
-    {
-        "" : "",
-        "" : ""
+        "var" : "nb_cote",
+        "val" : "3",
+        "ret" : "Ceci est un triangle",
+        "more" : [{
+            "var" : "nb_angle_droit",
+            "val" : "1",
+            "ret" : "Ceci est un triangle rectangle",
+            "more" : [{
+                "var" : "nb_cote_same",
+                "val" : "2",
+                "ret" : "Ceci est un triangle rectangle isocèle"
+            }]
+            },
+            {
+                "var" : "nb_cote_same",
+                "val" : "2",
+                "ret" : "Ceci est un triangle isocèle"
+            },
+            {
+                "var" : "nb_cote_same",
+                "val" : "3",
+                "ret" : "Ceci est un triangle équilatéral"
+            },
+            {
+                "var" : "nb_angle_droit",
+                "val" : "0",
+                "ret" : "Ceci est un triangle quelconque"
+            }
+        ]
     }
 ]
