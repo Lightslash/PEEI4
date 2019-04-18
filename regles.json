@@ -30,4 +30,76 @@
             }
         ]
     }
+    {
+      "var" : "nb_cote",
+      "val" : "4",
+      "ret" : "Ceci est un quadrilatère",
+      "more" : [{
+          "var" : "nb_angle_droit",
+          "val" : "4",
+          "ret" : "Ceci est un rectangle",
+          "more" : [{
+              "var" : "nb_cote_same",
+              "val" : "4",
+              "ret" : "Ceci est un carré"
+              }]
+          },
+          {
+          "var" : "nb_angle_droit",
+          "val" : "0" ,
+          "more" : [{
+              "var" : "nb_cote_parallel",
+              "val" : "4",
+              "ret" : "ceci est un parallélogramme",
+              "more" : [{
+                  "var" : "nb_cote_same",
+                  "val" : "4",
+                  "ret" : "Ceci est un losange"
+              }]
+            },
+            {
+              "var" : "nb_cote_parallel",
+              "val" : "2",
+              "ret" : "Ceci est un trapèze",
+            }
+            {
+              "var" : "nb_cote_parallel",
+              "val" : "0",
+              "ret" : "Ceci est un quadrilatère quelconque",
+            }
+            ]
+          }
+      ]
+    },
+    {
+      "var" : "nb_cote",
+      "val" : "5",
+      "ret" : "Ceci est un pentagone",
+    },
+    {
+      "var" : "nb_cote",
+      "val" : "6",
+      "ret" : "Ceci est un hexagone",
+    },
+    {
+      "var" : "nb_cote",
+      "val" : "8",
+      "ret" : "Ceci est un octogone",
+    },
+    {
+      "var" : "nb_cote",
+      "val" : "10",
+      "ret" : "Ceci est un décagone",
+    },
+    {
+      "var" : "nb_cote",
+      "val" : "12",
+      "ret" : "Ceci est un dodécagone",
+    },
+    {
+      "var" : "nb_cote",
+      "val" : "20",
+      "ret" : "Ceci est un icosagone",
+    }
+
 ]
