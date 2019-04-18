@@ -29,7 +29,7 @@
                 "ret" : "Ceci est un triangle quelconque"
             }
         ]
-    }
+    },
     {
       "var" : "nb_cote",
       "val" : "4",
@@ -60,12 +60,12 @@
             {
               "var" : "nb_cote_parallel",
               "val" : "2",
-              "ret" : "Ceci est un trapèze",
-            }
+              "ret" : "Ceci est un trapèze"
+            },
             {
               "var" : "nb_cote_parallel",
               "val" : "0",
-              "ret" : "Ceci est un quadrilatère quelconque",
+              "ret" : "Ceci est un quadrilatère quelconque"
             }
             ]
           }
@@ -74,32 +74,32 @@
     {
       "var" : "nb_cote",
       "val" : "5",
-      "ret" : "Ceci est un pentagone",
+      "ret" : "Ceci est un pentagone"
     },
     {
       "var" : "nb_cote",
       "val" : "6",
-      "ret" : "Ceci est un hexagone",
+      "ret" : "Ceci est un hexagone"
     },
     {
       "var" : "nb_cote",
       "val" : "8",
-      "ret" : "Ceci est un octogone",
+      "ret" : "Ceci est un octogone"
     },
     {
       "var" : "nb_cote",
       "val" : "10",
-      "ret" : "Ceci est un décagone",
+      "ret" : "Ceci est un décagone"
     },
     {
       "var" : "nb_cote",
       "val" : "12",
-      "ret" : "Ceci est un dodécagone",
+      "ret" : "Ceci est un dodécagone"
     },
     {
       "var" : "nb_cote",
       "val" : "20",
-      "ret" : "Ceci est un icosagone",
+      "ret" : "Ceci est un icosagone"
     }
 
 ]
