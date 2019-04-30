@@ -6,29 +6,39 @@
 	<link rel="stylesheet" href="assets/css/index.css">
 
 	<script src="interface.js"></script>
-    <script src="moteur_json.js"></script>
+	
+	<script src="moteur_js.js"></script>
+	<script src="regles.js"></script>
+	<script src="faits.js"></script>
+	<!-- 
+	<script src="moteur_json.js"></script>
+	-->
     <script src="jquery.min.js"></script>
 </head>
 <body>
 	<div class="content-container">
 		<div class="input-row">
 			<label for="nb_cote">Nombre de côté:</label>
-			<input type="number" min="3" max="20" id="nb_cote" name="nb_cote">
+			<input type="range" value="3" min="3" max="20" id="nb_cote" name="nb_cote" onchange="range(this.id)">
+			<input type="number"  id="nb_cote_box" name="nb_cote_box" readonly>
 		</div>
 
 		<div class="input-row">
 			<label for="nb_angle_droit">Nombre d'angles droits:</label>
-			<input type="number" min="0" max="10" id="nb_angle_droit" name="nb_angle_droit">
+			<input type="range" value="0" min="0" max="10" id="nb_angle_droit" name="nb_angle_droit" onchange="range(this.id)">
+			<input type="number"  id="nb_angle_droit_box" name="nb_angle_droit_box" readonly>
 		</div>
 
 		<div class="input-row">
 			<label for="nb_cote_same">Nombre de côté égaux:</label>
-			<input type="number" min="0" max="10" id="nb_cote_same" name="nb_cote_same">
+			<input type="range" value="0" min="0" max="10" id="nb_cote_same" name="nb_cote_same" onchange="range(this.id)">
+			<input type="number"  id="nb_cote_same_box" name="nb_cote_same_box" readonly>
 		</div>
 
 		<div class="input-row">
 			<label for="nb_cote_parallel">Nombre de côté parallèle:</label>
-			<input type="number" min="0" max="10" id="nb_cote_parallel" name="nb_cote_parallel">
+			<input type="range" value="0" min="0" max="10" id="nb_cote_parallel" name="nb_cote_parallel" onchange="range(this.id)">
+			<input type="number"  id="nb_cote_parallel_box" name="nb_cote_parallel_box" readonly>
 		</div>
 		<div class="buttons">	
 			<button type="button" onClick="search()">SEARCH</button>
