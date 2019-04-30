@@ -1,6 +1,7 @@
 .content-container {
 	height: 15%;
-	width: 30%;
+	width: 50%;
+	min-width: 540px;
 	margin: auto;
 	margin-top: 10%;
 	-webkit-border-radius: 10px;
@@ -19,6 +20,7 @@
 	margin-right: auto;
 	margin-top: 15px;
 	margin-bottom: 15px;
+	text-align: center;
 }
 
 .input-row label {
